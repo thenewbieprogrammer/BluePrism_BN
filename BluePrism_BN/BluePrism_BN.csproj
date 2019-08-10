@@ -34,6 +34,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IFindWordsAndWrite.cs" />
+    <Compile Include="Interfaces\IExtractWords.cs" />
+    <Compile Include="Modules\FindWordsAndWrite.cs" />
+    <Compile Include="Modules\ExtractWords.cs" />
+    <Compile Include="FindWordEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Modules\" />
+    <Folder Include="Entity\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
